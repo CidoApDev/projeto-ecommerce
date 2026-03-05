@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /*baixar site google fonts*/
+    background-color: #111111;
+    /*tela escura*/
+    min-height: 100vh;
+    /* o body ocupara toda a extensão (100%) da tela do navegador*/
+    grid-template-rows: auto 1fr auto;
+    /* linhas: header-auto main-flex footer-auto */
+    grid-template-areas:
+    /*definir as áreas do grid*/
+        "header"
+        "main"
+        "footer";
+}
